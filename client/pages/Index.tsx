@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
+import abhirup_img from '../../public/Picture1-modified.png';
 
 import {
   Mail,
@@ -102,7 +103,7 @@ technologies to create impactful solutions
             </div>
             <div className="flex justify-center">
               <div className="w-80 h-80 bg-accent rounded-full flex items-center justify-center text-6xl font-bold text-accent-foreground">
-                <img src="./public/Picture1-modified.png" alt="Abhirup Gumtya" width={320} height={320} />
+                <img src={abhirup_img} alt="Abhirup Gumtya" width={320} height={320} />
               </div>
             </div>
           </div>
